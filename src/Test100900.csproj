@@ -139,9 +139,6 @@
     <Reference Include="Telerik.Windows.Controls">
       <HintPath>C:\Program Files (x86)\Progress\Telerik UI for WPF R1 2018\Binaries\WPF45\Telerik.Windows.Controls.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Windows.Controls.GridView">
-      <HintPath>C:\Program Files (x86)\Progress\Telerik UI for WPF R1 2018\Binaries\WPF45\Telerik.Windows.Controls.GridView.dll</HintPath>
-    </Reference>
     <Reference Include="Telerik.Windows.Data">
       <HintPath>C:\Program Files (x86)\Progress\Telerik UI for WPF R1 2018\Binaries\WPF45\Telerik.Windows.Data.dll</HintPath>
     </Reference>
