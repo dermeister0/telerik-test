@@ -27,7 +27,7 @@ namespace Test100900
     /// </summary>
     public partial class MainWindow : Window
     {
-        private VirtualQueryableCollectionView view;
+        private QueryableCollectionView view;
 
         public MainWindow()
         {
@@ -45,7 +45,7 @@ namespace Test100900
             }
 
             File.Copy(@"..\..\Test.db", "Test.db");
-            view = new VirtualQueryableCollectionView(context.Cities);
+            view = new QueryableCollectionView(context.Cities);
             view.FilterDescriptors.Add(new FilterDescriptor("Id", FilterOperator.IsEqualTo, 123));
             GV.ItemsSource = view;
             File.Delete("Test.db");
